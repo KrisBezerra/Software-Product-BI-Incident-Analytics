@@ -1,0 +1,6 @@
+dashboard;area_responsavel;equipe_responsavel;criticidade_dashboard;tipo_dashboard;frequencia_atualizacao;fonte_dados_principal
+Painel de Receita;Financeiro;Equipe BI Financeiro;Crítica;Executivo;Diária;Data Warehouse Financeiro
+Painel de Vendas;Comercial;Equipe BI Comercial;Alta;Executivo;Diária;CRM Comercial
+Painel de Leads;Comercial;Equipe BI Comercial;Média;Tático;Diária;CRM Leads
+Painel Logístico;Supply Chain;Equipe BI Operações;Crítica;Operacional;Horária;ERP Logístico
+Painel de Custos;Financeiro;Equipe BI Financeiro;Alta;Tático;Diária;ERP Financeiro

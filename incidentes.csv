@@ -1,0 +1,251 @@
+id_incidente;data_abertura;data_fechamento;status_incidente;area;dashboard;tipo_erro;prioridade;incidente_critico;descricao_resumida
+INC0001;01/01/2026;02/01/2026;Encerrado;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização noturna falhou
+INC0002;01/01/2026;03/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Falha na conexão com banco
+INC0003;02/01/2026;;Aberto;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido
+INC0004;02/01/2026;04/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Alta;Sim;Valores divergentes
+INC0005;03/01/2026;03/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token expirado
+INC0006;03/01/2026;05/01/2026;Encerrado;Financeiro;Painel de Custos;Falha de atualização;Média;Não;Atualização parcial
+INC0007;04/01/2026;;Em andamento;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro no job de carga
+INC0008;04/01/2026;05/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout na conexão
+INC0009;05/01/2026;06/01/2026;Encerrado;Financeiro;Painel de Receita;Dados inconsistentes;Alta;Sim;Valores incorretos
+INC0010;05/01/2026;07/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Média;Não;Falha na autenticação API
+INC0011;06/01/2026;08/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro no pipeline ETL
+INC0012;06/01/2026;07/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Baixa;Não;Instabilidade rede
+INC0013;07/01/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0014;07/01/2026;09/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0015;08/01/2026;09/01/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Erro de token
+INC0016;08/01/2026;10/01/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0017;09/01/2026;10/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline travado
+INC0018;09/01/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout consulta
+INC0019;10/01/2026;11/01/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Valores incorretos
+INC0020;10/01/2026;11/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0021;11/01/2026;13/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro carga diária
+INC0022;11/01/2026;12/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Falha conexão API
+INC0023;12/01/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0024;12/01/2026;14/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Valores divergentes
+INC0025;13/01/2026;14/01/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Erro credenciais
+INC0026;13/01/2026;15/01/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0027;14/01/2026;16/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido
+INC0028;14/01/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout banco
+INC0029;15/01/2026;16/01/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Dados divergentes
+INC0030;15/01/2026;17/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token expirado
+INC0031;16/01/2026;17/01/2026;Encerrado;Financeiro;Painel de Receita;Falha de atualização;Média;Não;Atualização manual executada
+INC0032;16/01/2026;18/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro intermitente API
+INC0033;17/01/2026;;Aberto;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido durante carga
+INC0034;17/01/2026;19/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Alta;Sim;Valores inconsistentes
+INC0035;18/01/2026;18/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token inválido
+INC0036;18/01/2026;20/01/2026;Encerrado;Financeiro;Painel de Custos;Erro de conexão;Média;Não;Falha consulta banco
+INC0037;19/01/2026;;Em andamento;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro transformação dados
+INC0038;19/01/2026;20/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Baixa;Não;Instabilidade conexão
+INC0039;20/01/2026;22/01/2026;Encerrado;Financeiro;Painel de Receita;Dados inconsistentes;Alta;Sim;Relatório divergente
+INC0040;20/01/2026;21/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Falha login serviço
+INC0041;21/01/2026;23/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline ingestão
+INC0042;21/01/2026;22/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;API instável
+INC0043;22/01/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização automática falhou
+INC0044;22/01/2026;24/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Problema carga dados
+INC0045;23/01/2026;23/01/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0046;23/01/2026;25/01/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte offline
+INC0047;24/01/2026;25/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline travado
+INC0048;24/01/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta demorando
+INC0049;25/01/2026;26/01/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Dados divergentes
+INC0050;25/01/2026;27/01/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credencial inválida
+INC0051;26/01/2026;28/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro job ETL
+INC0052;26/01/2026;27/01/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Falha integração CRM
+INC0053;27/01/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0054;27/01/2026;29/01/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Divergência de dados
+INC0055;28/01/2026;29/01/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0056;28/01/2026;30/01/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Timeout conexão
+INC0057;29/01/2026;30/01/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido
+INC0058;29/01/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro consulta API
+INC0059;30/01/2026;31/01/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0060;30/01/2026;01/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credencial expirada
+INC0061;01/02/2026;02/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ingestão
+INC0062;01/02/2026;03/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Instabilidade rede
+INC0063;02/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização interrompida
+INC0064;02/02/2026;04/02/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0065;03/02/2026;03/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0066;03/02/2026;05/02/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0067;04/02/2026;06/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline travado
+INC0068;04/02/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro consulta
+INC0069;05/02/2026;06/02/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Valores incorretos
+INC0070;05/02/2026;07/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login
+INC0071;06/02/2026;08/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline
+INC0072;06/02/2026;07/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro integração
+INC0073;07/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0074;07/02/2026;09/02/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Divergência dados
+INC0075;08/02/2026;09/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0076;08/02/2026;10/02/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte offline
+INC0077;09/02/2026;10/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline travado
+INC0078;09/02/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0079;10/02/2026;11/02/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0080;10/02/2026;12/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0081;11/02/2026;13/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro na etapa de transformação
+INC0082;11/02/2026;12/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout na API de leads
+INC0083;12/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Job de atualização não executado
+INC0084;12/02/2026;14/02/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Registros duplicados
+INC0085;13/02/2026;13/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0086;13/02/2026;15/02/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Falha conexão banco
+INC0087;14/02/2026;16/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro crítico na ingestão
+INC0088;14/02/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta demorando
+INC0089;15/02/2026;16/02/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Dados divergentes
+INC0090;15/02/2026;17/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token expirado
+INC0091;16/02/2026;18/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro no processo ETL
+INC0092;16/02/2026;17/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Falha integração CRM
+INC0093;17/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização diária falhou
+INC0094;17/02/2026;19/02/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Erro carga dados
+INC0095;18/02/2026;18/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0096;18/02/2026;20/02/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0097;19/02/2026;21/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido
+INC0098;19/02/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0099;20/02/2026;21/02/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0100;20/02/2026;22/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0101;21/02/2026;23/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ingestão
+INC0102;21/02/2026;22/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout API
+INC0103;22/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização interrompida
+INC0104;22/02/2026;24/02/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Erro transformação
+INC0105;23/02/2026;23/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0106;23/02/2026;25/02/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro conexão fonte
+INC0107;24/02/2026;26/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro crítico ETL
+INC0108;24/02/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta instável
+INC0109;25/02/2026;26/02/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Dados divergentes
+INC0110;25/02/2026;27/02/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login API
+INC0111;26/02/2026;28/02/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline
+INC0112;26/02/2026;27/02/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Falha consulta
+INC0113;27/02/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0114;27/02/2026;01/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Erro carga
+INC0115;28/02/2026;28/02/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Credencial inválida
+INC0116;28/02/2026;02/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0117;01/03/2026;03/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline ingestão
+INC0118;01/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0119;02/03/2026;03/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0120;02/03/2026;04/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token expirado
+INC0121;03/03/2026;05/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro job ETL
+INC0122;03/03/2026;04/03/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout API
+INC0123;04/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0124;04/03/2026;06/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0125;05/03/2026;05/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0126;05/03/2026;07/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro conexão fonte
+INC0127;06/03/2026;08/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline travado
+INC0128;06/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta instável
+INC0129;07/03/2026;08/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0130;07/03/2026;09/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0131;08/03/2026;10/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline
+INC0132;08/03/2026;09/03/2026;Encerrado;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro integração
+INC0133;09/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0134;09/03/2026;11/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Erro carga dados
+INC0135;10/03/2026;10/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0136;10/03/2026;12/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte offline
+INC0137;11/03/2026;13/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro crítico ETL
+INC0138;11/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0139;12/03/2026;13/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Valores divergentes
+INC0140;12/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login API
+INC0141;13/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline ingestão
+INC0142;13/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro consulta
+INC0143;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização interrompida
+INC0144;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0145;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Credencial inválida
+INC0146;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0147;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Pipeline interrompido
+INC0148;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0149;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0150;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token expirado
+INC0151;14/03/2026;;Aberto;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ETL
+INC0152;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout consulta
+INC0153;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0154;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Divergência dados
+INC0155;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Erro credencial
+INC0156;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro conexão
+INC0157;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline
+INC0158;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0159;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0160;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token inválido
+INC0161;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro processamento ETL
+INC0162;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout integração
+INC0163;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização automática falhou
+INC0164;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0165;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0166;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro conexão fonte
+INC0167;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline ingestão
+INC0168;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta instável
+INC0169;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0170;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0171;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline
+INC0172;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro consulta API
+INC0173;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização interrompida
+INC0174;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0175;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Erro credencial
+INC0176;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0177;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro crítico pipeline
+INC0178;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0179;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Valores divergentes
+INC0180;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token inválido
+INC0181;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro carga dados
+INC0182;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout conexão
+INC0183;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Job não executado
+INC0184;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados inconsistentes
+INC0185;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Erro token
+INC0186;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro fonte
+INC0187;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline
+INC0188;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0189;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0190;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login
+INC0191;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ingestão
+INC0192;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta API
+INC0193;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0194;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Erro dados
+INC0195;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0196;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro banco
+INC0197;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline ETL
+INC0198;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout consulta
+INC0199;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0200;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Token inválido
+INC0201;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro pipeline ingestão
+INC0202;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta instável
+INC0203;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0204;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0205;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0206;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0207;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro crítico pipeline
+INC0208;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro consulta
+INC0209;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0210;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login
+INC0211;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ETL
+INC0212;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout consulta
+INC0213;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0214;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Divergência dados
+INC0215;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0216;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte offline
+INC0217;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline
+INC0218;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta API
+INC0219;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0220;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
+INC0221;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ingestão
+INC0222;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro integração
+INC0223;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0224;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0225;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0226;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte indisponível
+INC0227;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline ETL
+INC0228;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0229;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0230;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credencial inválida
+INC0231;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ETL
+INC0232;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Timeout consulta
+INC0233;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização não executada
+INC0234;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Dados divergentes
+INC0235;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token inválido
+INC0236;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Erro conexão
+INC0237;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline ingestão
+INC0238;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta API
+INC0239;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0240;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Erro login
+INC0241;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Alta;Sim;Erro ingestão
+INC0242;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Erro integração
+INC0243;14/03/2026;;Aberto;Financeiro;Painel de Receita;Falha de atualização;Alta;Sim;Atualização falhou
+INC0244;14/03/2026;14/03/2026;Encerrado;Supply Chain;Painel Logístico;Dados inconsistentes;Média;Não;Divergência dados
+INC0245;14/03/2026;14/03/2026;Encerrado;TI;Painel de Custos;Erro de autenticação;Baixa;Não;Token expirado
+INC0246;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Receita;Erro de conexão;Média;Não;Fonte offline
+INC0247;14/03/2026;14/03/2026;Encerrado;Operações;Painel Logístico;Pipeline falhou;Crítica;Sim;Erro pipeline
+INC0248;14/03/2026;;Em andamento;Comercial;Painel de Leads;Erro de conexão;Média;Não;Consulta lenta
+INC0249;14/03/2026;14/03/2026;Encerrado;Financeiro;Painel de Custos;Dados inconsistentes;Alta;Sim;Erro cálculo
+INC0250;14/03/2026;14/03/2026;Encerrado;TI;Painel de Vendas;Erro de autenticação;Baixa;Não;Credenciais inválidas
